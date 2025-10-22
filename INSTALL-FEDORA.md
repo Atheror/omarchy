@@ -14,7 +14,7 @@ Quick start guide for installing Omarchy on Fedora Linux.
 ### Step 1: Clone Omarchy
 
 ```bash
-git clone <omarchy-repo-url> ~/.local/share/omarchy
+git clone -b fedora-port https://github.com/Atheror/omarchy.git ~/.local/share/omarchy
 cd ~/.local/share/omarchy
 ```
 
@@ -41,7 +41,7 @@ After the main installation completes, run the interactive helper:
 
 This interactive menu will guide you through installing:
 - **Essential**: Hyprland, Waybar, Walker, Elephant
-- **Development Tools**: Gum, LazyDocker, Mise
+- **Development Tools**: Docker CE, Gum, LazyDocker, Mise
 - **Desktop Apps**: Bitwarden, Joplin, LocalSend
 - **System Tools**: SwayOSD, Satty
 - **Fonts**: Nerd Fonts
@@ -121,7 +121,7 @@ This document contains detailed installation instructions for every package that
 | AUR helper | `yay` | COPR |
 | Base development | `base-devel` | Development Tools |
 | Hyprland source | Official/AUR | COPR |
-| Docker package | `docker` | `moby-engine` |
+| Docker package | `docker` | `docker-ce` (official) |
 
 ## Files Structure
 

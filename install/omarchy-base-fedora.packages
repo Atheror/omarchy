@@ -1,0 +1,219 @@
+# Omarchy core package list for Fedora
+# Packages marked with ! are NOT available in standard Fedora/RPM Fusion repos
+# See omarchy-base-fedora-alternatives.md for installation alternatives
+#
+# Lines starting with # are comments
+# Lines starting with ! are packages that need manual installation
+
+# === Bitwarden (Password Manager) ===
+# Install from: https://bitwarden.com/download/?app=desktop&platform=linux&variant=rpm
+!bitwarden
+
+# === Custom/AUR packages (need GitHub sources) ===
+!aether
+
+# === Terminal & Shell ===
+alacritty
+bash-completion
+bat
+starship
+zoxide
+
+# === Hardware Control ===
+!asdcontrol
+brightnessctl
+pamixer
+
+# === Network ===
+avahi
+nss-mdns
+iwd
+wireless-regdb
+
+# === Bluetooth ===
+blueberry
+
+# === System Monitoring & Info ===
+btop
+fastfetch
+
+# === Development Tools ===
+cargo
+clang
+llvm
+github-cli
+lazygit
+!lazydocker
+mise
+
+# === Printing ===
+cups
+# Note: cups-browsed is deprecated in newer systems
+cups-filters
+cups-pdf
+system-config-printer
+
+# === Container Tools ===
+# Docker CE (Community Edition) - Install from official Docker repository
+# See: https://docs.docker.com/engine/install/fedora/
+!docker-ce
+!docker-ce-cli
+!containerd.io
+!docker-buildx-plugin
+!docker-compose-plugin
+
+# === File Utilities ===
+dust
+eza
+fd-find
+fzf
+ripgrep
+plocate
+tree-sitter-cli
+unzip
+whois
+
+# === Media Tools ===
+ffmpegthumbnailer
+imagemagick
+mpv
+kdenlive
+obs-studio
+!gpu-screen-recorder
+
+# === Wayland/Hyprland Ecosystem ===
+# Most Hyprland packages require COPR: solopasha/hyprland
+!hyprland
+!hyprland-qtutils
+!hypridle
+!hyprlock
+!hyprpicker
+!hyprsunset
+!xdg-desktop-portal-hyprland
+
+# === Wayland Tools ===
+grim
+slurp
+swaybg
+!swayosd
+wl-clipboard
+!waybar
+mako
+!satty
+
+# === Walker and Elephant plugins ===
+!walker
+!elephant
+!elephant-bluetooth
+!elephant-calc
+!elephant-clipboard
+!elephant-desktopapplications
+!elephant-files
+!elephant-menus
+!elephant-providerlist
+!elephant-runner
+!elephant-symbols
+!elephant-todo
+!elephant-unicode
+!elephant-websearch
+
+# === Document Viewers & Editors ===
+evince
+libreoffice
+!joplin
+xournalpp
+pinta
+
+# === Image Viewers & Editors ===
+!imv
+sushi
+
+# === Input Methods ===
+fcitx5
+fcitx5-gtk
+fcitx5-qt
+
+# === Libraries ===
+fontconfig
+libsecret
+libyaml
+libqalculate
+mariadb-connector-c
+libpq
+python3-gobject
+!python-poetry-core
+!python-terminaltexteffects
+
+# === File Systems ===
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+
+# === Terminal UI Tools ===
+!gum
+less
+man-db
+tldr
+
+# === Miscellaneous ===
+inetutils
+jq
+luarocks
+!wiremix
+wireplumber
+xmlstarlet
+
+# === GNOME Integration ===
+gnome-calculator
+gnome-keyring
+gnome-themes-extra
+nautilus
+gnome-disk-utility
+polkit-gnome
+
+# === Qt/Theming ===
+qt5-qtwayland
+!kvantum
+
+# === Fonts ===
+google-noto-sans-fonts
+google-noto-serif-fonts
+google-noto-cjk-fonts
+google-noto-emoji-fonts
+# Nerd Fonts (may need manual install or COPR)
+!ttf-cascadia-mono-nerd
+!ttf-ia-writer
+!ttf-jetbrains-mono-nerd
+!woff2-font-awesome
+
+# === Login & Session ===
+plymouth
+sddm
+!uwsm
+
+# === Desktop Apps ===
+!localsend
+signal-desktop
+
+# === Browsers ===
+!omarchy-chromium
+
+# === Neovim ===
+neovim
+!omarchy-nvim
+
+# === Icon Themes ===
+yaru-icon-theme
+
+# === Power Management ===
+power-profiles-daemon
+
+# === Firewall ===
+ufw
+!ufw-docker
+
+# === System Tools ===
+playerctl
+!tzupdate
+!impala
+!wayfreeze-git

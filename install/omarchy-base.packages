@@ -1,8 +1,6 @@
 # Omarchy core package list installed via install/packaging/base.sh
 # This file is also used by the ISO builder when determining needs
 
-1password-beta
-1password-cli
 aether
 alacritty
 asdcontrol
@@ -70,6 +68,7 @@ inxi
 iwd
 jq
 kdenlive
+kitty
 kvantum-qt5
 lazydocker
 lazygit
@@ -110,12 +109,12 @@ python-gobject
 python-poetry-core
 python-terminaltexteffects
 qt5-wayland
+qt6-wayland
 ripgrep
 satty
 sddm
 signal-desktop
 slurp
-spotify
 starship
 sushi
 swaybg
@@ -126,7 +125,6 @@ tree-sitter-cli
 ttf-cascadia-mono-nerd
 ttf-ia-writer
 ttf-jetbrains-mono-nerd
-typora
 tzupdate
 ufw
 ufw-docker
